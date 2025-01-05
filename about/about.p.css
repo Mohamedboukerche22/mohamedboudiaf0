@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&family=Solitreo&display=swap');
+body {
+    font-family: "Amiri", serif;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .info div {
+    flex: 1;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  .info div span {
+    display: block;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .divider {
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+  .sections {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .specialties {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .specialties div {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+  }
+  .specialties div span {
+    display: block;
+    margin-top: 10px;
+  }
+
+.container {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+ .map{
+  width: 100%;
+  height: 100%;
+  border: none;
+
+ }
+ .back-button-container {
+  display: flex;
+  justify-content: center; 
+  position: fixed;
+}
+.back-button {
+  position: fixed; 
+  bottom: 20px; 
+  left: 20px; 
+  width: 40px; 
+  height: 40px; 
+  display: block; 
+}
+
+.back-button img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  border-radius: 25%;
+}
+
+.back-button:hover {
+  opacity: 0.8; 
+}
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
+  justify-items: center; 
+}
+.button {
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #323131;
+}
+.temp{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
+  justify-items: center; 
+}

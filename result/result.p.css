@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&family=Solitreo&display=swap');
+body {
+    font-family: "Amiri", serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+.description {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.button {
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.divider {
+    border-top: 2px solid #000;
+    margin: 20px 0;
+}
+.grade-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.grade-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 30%;
+}
+.back-button-container {
+    display: flex;
+    justify-content: center; 
+    position: fixed;
+    
+    
+}
+.back-button {
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    width: 40px; 
+    height: 40px; 
+    display: block; 
+}
+
+.back-button img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    border-radius: 25%;
+}
+
+.back-button:hover {
+    opacity: 0.8; 
+}
